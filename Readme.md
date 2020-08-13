@@ -17,7 +17,15 @@ Here you can see a small minimap of the level as well as the rendered 3D:
    + For Windows: Not needed
    
  - dotnet core 3.1 sdk
+ 
+ - GNU Make (MinGW on Windows)
 
 ## Build
 
-Run `make <os>=1` where '<os>' can be LINUX, WIN32, or WIN64
+- Linux:
+
+   + Run `make LINUX=1`
+ 
+ - Windows
+ 
+   + Run `mingw32-make <os>=1` where <os> can be WIN32 or WIN64 depending on your OS
