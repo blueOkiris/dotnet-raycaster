@@ -10,8 +10,12 @@ Here you can see a small minimap of the level as well as the rendered 3D:
 
 ## Dependencies
 
- - libcsfml-dev
-
+ - SFML Libraries
+ 
+   + For Linux: libcsfml-dev for Debian Systems or csfml for Arch
+   
+   + For Windows: Not needed
+   
  - dotnet core 3.1 sdk
 
 ## Build
